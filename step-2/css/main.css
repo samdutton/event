@@ -191,7 +191,7 @@ video {
   footer {
     height: inherit;
   }
-   
+
   h1 {
     font-size: 20px;
   }
@@ -206,7 +206,7 @@ video {
     float: inherit;
     margin: 0 0 20px 0;
     width: 100%;
-  } 
+  }
 
   img.banner {
     margin: 0 0 20px 0;
@@ -232,3 +232,37 @@ video {
   }
 
 }
+
+
+@media screen and (max-width: 400px) {
+
+  h1 {
+    color: black;
+    font-size: 14px;
+  }
+
+  section.logo img {
+    margin: 0 5px 0 0;
+    padding: 0 5px 0 0;
+  }
+
+  nav li {
+    font-size: 13px;
+    margin: 0 12px 0 0;
+  }
+
+  nav {
+    padding: 10px;
+  }
+
+  section.logo {
+    padding: 10px;
+  }
+
+  nav ul {
+    margin: 0;
+  }
+
+}
+
+
