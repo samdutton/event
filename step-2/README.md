@@ -26,6 +26,6 @@ Add CSS.
 
 * Keep your CSS as specific and as broad as possible.
 
-* Standardize margins: right/below.
+* Standardize margins: right/below. Add padding to container, not margins. Use padding for padding, margins for margins.
 
 * Is the menu OK? What if there were more items? Would a hamburger menu be better?

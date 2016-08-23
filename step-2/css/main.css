@@ -44,7 +44,7 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   font-weight: 200;
-  margin: 0 0 18px 0;
+  margin: 0;
 }
 
 h2 {
@@ -56,6 +56,7 @@ h2 {
   margin: 0 0 0.8em 0;
   text-align: center;
 }
+
 h3 {
   border-top: 1px solid #eee;
   color: #666;
@@ -63,12 +64,6 @@ h3 {
   font-weight: 500;
   margin: 20px 0 10px 0;
   padding: 10px 0 0 0;
-}
-
-header  {
-  background: #f1f1f1;
-  margin: 0 0 50px 0;
-  padding: 18px 0 0 0;
 }
 
 iframe {
@@ -85,22 +80,16 @@ img {
 
 img.banner {
   float: left;
+  margin: 0 0 50px 0;
   width: 100%;
 }
 
-img.logo {
+section.logo img {
   border-right: 1px solid #ccc;
   float: left;
-  margin: 0 20px 0 10%;
+  margin: 0 21px 0 0;
   padding: 0 16px 0 0;
   width: 116px;
-}
-
-main {
-  margin: 0 auto;
-  max-width: calc(100% - 40px);
-  padding: 0 20px;
-  width: 938px;
 }
 
 nav li {
@@ -111,9 +100,17 @@ nav li {
   margin: 0 20px 0 0;
 }
 
+main {
+  margin: 0 auto;
+  max-width: calc(100% - 40px);
+  padding: 0 20px;
+  width: 938px;
+}
+
 nav {
   background-color: #eee;
   background-color: rgba(236,236,236,0.75);
+  padding: 0 10px 0 20px;
   position: absolute;
   width: 100%;
 }
@@ -137,6 +134,11 @@ footer section {
 
 section.calendar {
   margin: 0;
+}
+
+section.logo  {
+  background: #f1f1f1;
+  padding: 24px 0 24px 20px;
 }
 
 main section {
@@ -168,7 +170,8 @@ footer strong {
 
 nav ul {
   list-style-type: none;
-  margin: 10px 0;
+  margin: 10px 0 10px 0;
+  padding: 0;
 }
 
 video {
@@ -177,22 +180,28 @@ video {
   width: 100%;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
   h1 {
     font-size: 24px;
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
 
   footer {
     height: inherit;
   }
-
-  iframe {
-    margin: 0 0 30px 0;
-  }
    
+  h1 {
+    font-size: 20px;
+  }
+
+  section.logo img {
+    margin: 0 15px 0 0;
+    padding: 0 10px 0 0;
+    width: 80px;
+  }
+
   footer section {
     float: inherit;
     margin: 0 0 20px 0;
@@ -207,15 +216,19 @@ video {
     background-color: white;
     line-height: 2em;
     margin: 0;
-    padding: 2px 0 0 0;
+    padding: 2px 0 0 20px;
     position: relative;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
 
   h1 {
-    font-size: 20px;
+    font-size: 16px;
+  }
+
+  section.logo img {
+    width: 60px;
   }
 
 }
