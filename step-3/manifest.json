@@ -34,7 +34,7 @@
     }
   ],
   "start_url": "./?utm_source=web_app_manifest",
-  "display": "browser",
+  "display": "standalone",
   "background_color": "#3F51B5",
   "theme_color": "#3F51B5"
 }
