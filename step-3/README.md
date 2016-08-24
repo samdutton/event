@@ -1,31 +1,27 @@
-# Step 2
+# Step 3
 
-Add CSS.
+Add a manifest.
 
 
 ## Objectives
 
-* Layout: given the target devices and viewports, what needs changing from Step 1?
+* Configure the homescreen experience: icon and app name.
 
-* Usability: does everything work? (This is an event site!)
+* Configure the launch experience: splash screen, colours, icons.
 
-* Image and media files: what needs to change? Look for anomalies. How low can you go? Reduce image quality as far as possible. Compare [rob_dodson.jpg](images/speakers/rob_dodson.jpg) with [tal_oppeneimer.jpg](images/speakers/tal_oppeneimer.jpg).
-
-* Testing in all target browsers and viewports.
+* Test in all target browsers.
 
 
 ## Things to check
 
-* Is text readable on all target devices?
+* Make sure you understand all the values in the [manifest](manifest.json).
 
-* Does any content overflow page width?
+* Note that the start_url value in the manifest can be handy for deep linking.
 
-* Are images all the same file size and resolution? Are images optimized? (I saved 1.5MB/17% just running the images through ImageOptim.)
+* The start_url value can also have a query parameter, for example to track traffic from the homescreen icon.
 
-* Is all code valid according to editor tools: HTMLHint, CSSLint.
+* Do you think users are likely to use the *Add to Home screen* menu item? Find out more [here](https://developers.google.com/web/updates/2015/03/increasing-engagement-with-app-install-banners-in-chrome-for-android) about how add-to-homescreen prompting works, and how to defer the prompt event.
 
-* Keep your CSS as specific and as broad as possible.
+* Standalone versus browser mode — what's the difference? Why might you choose to stick with browser mode?
 
-* Standardize margins: right/below. Add padding to container, not margins. Use padding for padding, margins for margins.
-
-* Is the menu OK? What if there were more items? Would a hamburger menu be better?
+* What browsers support Web App Manifests? What about Safari?
