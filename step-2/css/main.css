@@ -1,4 +1,4 @@
-/* csslint box-model:false, overqualified-elements:false, unique-headings:false */
+/* csslint box-model:false, font-sizes:false, overqualified-elements:false, qualified-headings:false , unique-headings:false */
 
 .borderBelow {
   border-bottom: 1px solid #eee;
@@ -68,6 +68,14 @@ h2 {
   text-align: center;
 }
 
+.speakers h2 {
+  border-bottom: 1px solid #eee;
+  color: #444;
+  margin: 0 0 30px 0;
+  padding: 0 0 30px 0;
+  text-align: center;
+}
+
 h3 {
   color: #304ffe;
   font-family: "Roboto", sans-serif;
@@ -75,6 +83,14 @@ h3 {
   font-weight: 300;
   margin: 0 0 10px 0;
   padding: 0 0 0 0;
+}
+
+.speakers h3 {
+  border-bottom: none;
+  font-size: 20px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  text-align: left;
 }
 
 h4 {
@@ -86,6 +102,10 @@ h4 {
   padding: 0;
 }
 
+.speakers h4 {
+  font-size: 18px;
+  margin: 0 0 20px 0;
+}
 iframe {
   display: block;
   margin: 0 auto 50px auto;
