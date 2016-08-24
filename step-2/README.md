@@ -28,4 +28,4 @@ Add CSS.
 
 * Standardize margins: right/below. Add padding to container, not margins. Use padding for padding, margins for margins.
 
-* Is the menu OK? What if there were more items? Would a hamburger menu be better?
+* Is the navigation OK? What if there were more items? Would a hamburger menu be better? How would you implement that?
