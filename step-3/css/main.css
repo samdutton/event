@@ -20,15 +20,6 @@ a:hover {
   text-decoration: underline;
 }
 
-a.recording:hover {
-  color: #7759ae;
-}
-
-a.recording {
-  display: block;
-  margin: 20px 0 0 0;
-}
-
 nav a {
   color: black;
 }
@@ -57,33 +48,22 @@ h1 {
 }
 
 h2 {
-  border-bottom: 1px solid #eee;
   color: #444;
   font-family: "Roboto", sans-serif;
   font-size: 25px;
   font-weight: 200;
   line-height: 1.2em;
-  margin: 0 0 20px 0;
-  padding: 0 0 30px 0;
+  margin: 0 0 0.8em 0;
   text-align: center;
 }
 
 h3 {
-  color: #304ffe;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-  margin: 0 0 10px 0;
-  padding: 0 0 0 0;
-}
-
-h4 {
-  color: #304ffe;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  margin: 0 0 10px 0;
-  padding: 0;
+  border-top: 1px solid #eee;
+  color: #666;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin: 20px 0 10px 0;
+  padding: 10px 0 0 0;
 }
 
 iframe {
@@ -102,10 +82,6 @@ img.banner {
   float: left;
   margin: 0 0 50px 0;
   width: 100%;
-}
-
-.recording img {
-  margin: 0 0 20px 0;
 }
 
 section.logo img {
@@ -145,12 +121,7 @@ p {
   line-height: 1.6em;
 }
 
-.recording p {
-  color: #7759ae;
-  margin: 0 0 20px 0;
-}
-
-section > p:last-of-type {
+section p:last-of-type {
   margin: 0;
 }
 
@@ -173,7 +144,7 @@ section.logo  {
 main section {
   border-bottom: 1px solid #eee;
   margin: 0 0 30px 0;
-  padding: 0 0 30px 0;
+  padding: 0 0 20px 0;
 }
 
 main section:last-of-type {
