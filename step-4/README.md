@@ -26,8 +26,10 @@ Add third party content.
 
 * Does third-party content work on poor connections?
 
-* Is third-party content functional in small viewports on low-cost devices?
+* Is third-party content functional in small viewports on low-cost devices? Is content displayed as intended?
 
 * How does third-party content affect page load, page weight and load speed?
 
-* JavaScript API or iframe — which should you choose?
+* [JavaScript API or iframe](http://stackoverflow.com/questions/25082216/google-maps-javascript-api-vs-google-maps-embed-api) — which should you choose?
+
+* What issues should you consider when using third party content (such as advertising) where you may not have control over implementation?
