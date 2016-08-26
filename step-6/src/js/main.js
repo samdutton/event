@@ -10,3 +10,7 @@ function initMap() {
     zoom: 14
   });
 }
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}

@@ -2,7 +2,7 @@
 
 Use the task runner Gulp to lint code.
 
-This step take you part of the way to implementing a build process, to automate testing and processing of code and assets before committing or deploying.
+This step take you part of the way to implementing a build process, to automate testing and processing of code and assets before committing or deploying. Source code has all been moved to the **src** directory, and inline JavaScript from [index.html](src/index.html) has been moved to external files.
 
 To see Gulp in action, run the following from the command line in the same directory as the file:
 
