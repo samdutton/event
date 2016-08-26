@@ -44,7 +44,7 @@
     "browser": true,
     "node": false
   },
-  "extends": ["eslint:recommended", "webrtc"],
+  "extends": ["eslint:recommended"],
   "globals": {
     "_uacct": true,
     "ga": true
