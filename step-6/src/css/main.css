@@ -243,13 +243,13 @@ video {
   width: 100%;
 }
 
-@media screen and (max-width: 700px) {
+@media (max-width: 700px) {
   h1 {
     font-size: 24px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
 
   footer {
     height: inherit;
@@ -284,7 +284,7 @@ video {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
 
   h1 {
     font-size: 16px;
@@ -297,7 +297,7 @@ video {
 }
 
 
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
 
   h1 {
     color: black;
